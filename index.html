@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Making a Website on GitHub</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- <link rel="stylesheet" href="css/theme/black.css" id="theme"> -->
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Let's Make a Website! :D</h1>
+					<h3>And host it for freeeeee!</h3>
+					<p>
+						<small>I'm <a href="http://devan.im">Devan</a> 👉 <a href="http://twitter.com/devanipsum">@devanipsum</a></small>
+					</p>
+				</section>
+				<section>
+					<h2><a target="_blank"href="https://github.com/">Github?</a></h2>
+					<img style="border: none; box-shadow: none;" src="images/github.jpg" alt="">
+				</section>
+				<section>
+					<h2>
+						<a href="https://pages.github.com/">Github Pages</a>
+					</h2>
+					Is a service offered by Github to host static content on the web. And host it for freeeeee! :D
+				</section>
+
+				<section>
+					<section>
+						<h2>Resources! </h2>
+						<img src="http://i.imgur.com/pfEOJ45.gif"/>
+					</section>
+					<section>
+						<h2>You Should Just Need This One</h2>
+						<p><a href="http://tiny.cc/ghp">http://tiny.cc/ghp</a></p>
+					</section>
+					<section style="text-align: left;">
+						<h2><a href="https://github.com/">⭐ A Github Account! </a></h2>
+						<h2><a href="http://git-scm.com/downloads">⭐ Git On Your Computer! </a></h2>
+						<h2><a href="https://www.wikiwand.com/en/The_Internet_(band)">⭐ Access To The Internet!</a></h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>The Steps!</h2>
+						<img src="http://i.imgur.com/ZpO1Mjx.gif"/>
+					</section>
+					<section>
+						<h2>The Steps!</h2>
+						<ul>
+							<li>Create a github repository!</li>
+							<li>Get some HTMLs</li>
+							<li>Connect That Folder To The Github Repo We Made</li>
+							<li>Make a <a href="https://www.atlassian.com/git/tutorials/using-branches">branch</a> called "gh-pages"</li>
+							<li>Push to that branch</li>
+						</ul>
+					</section>
+					
+				</section>
+				<section>
+					<h2><a target="_blank" href="https://github.com/new">Create a github repository!</a></h2>
+				</section>
+				<section>
+					<h2><a target="_blank" href="http://startbootstrap.com/template-overviews/creative/">Get some HTMLs</a></h2>
+				</section>
+				<section>
+					<a href="https://imgflip.com/i/roxpz"><img src="https://i.imgflip.com/roxpz.jpg" title="made at imgflip.com"/></a>
+				</section>
+				<section>
+					<p>Go to the folder inside of yo' terminal</p>
+					<img src="images/drag-folder.gif" alt="" style="box-shadow: 0 0 30px rgba(0,0,0,0.35);">
+				</section>
+				<section>
+					<p>Connect That Folder To The Github Repo We Made</p>
+					<pre style="box-shadow: none;">
+						<code style="box-shadow: 0 0 30px rgba(0,0,0,0.35);">
+git init
+git add -A
+git commit -m "First commit"
+git remote add origin http://github.com/USERNAME/REPOSITORY-NAME.git
+git push origin master
+						</code>
+					</pre>
+				</section>
+				<section>
+					<p>Make a <a href="https://www.atlassian.com/git/tutorials/using-branches">branch</a> called "gh-pages"</p>
+					<pre style="box-shadow: none;">
+						<code style="box-shadow: 0 0 30px rgba(0,0,0,0.35);">
+git checkout -b gh-pages
+git push --set-upstream origin gh-pages
+						</code>
+					</pre>
+				</section>
+				<section>
+					<h1>Okay! That's it! :D</h1>
+					<p><a target="_blank" href="http://imdevan.github.io/dont-use-bootstrap">imdevan.github.io/super-basiccc</a></p>
+				</section>
+				<section style="text-align: left;">
+					<h2>Disclaimer</h2>
+					<p>
+						Bootstrap is <strike>bad</strike> <span style="opacity: 0.5;">really bloated, looks super generic, and implements poor performance practices under the hood</span>
+					</p>
+				</section>
+
+				<section style="text-align: left;">
+					<h2>Questions?</h2>
+					<p>
+						<span style="color: #4BB0D2;">- What else can you do with Github Pages?</span> <br>
+						- ? <br>
+						<span style="color: #4BB0D2;">- What is your favorite resturant in College Station? </span><br>
+						- What do I do if I can't get the job I want? <br>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+		<style>
+			.small {font-size: .5em;}
+		</style>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
